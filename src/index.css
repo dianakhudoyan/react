@@ -1,0 +1,48 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todos{
+  border: .1rem, solid;
+  padding: 1rem;
+  width: 400px;
+
+}
+
+.Todo{
+  border: .1rem solid;
+  margin: .3rem;
+  padding: .5rem;
+  color: darkred;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.todo-btn .fa-check{
+  margin-right: .5rem;
+  cursor: pointer;
+  color: aqua;
+}
+
+.todo-btn .fa-trash{
+  margin-right: .5rem;
+  cursor: pointer;
+  color: red;
+}
+
+.done{
+  background-color: blueviolet;
+  text-decoration: line-through;
+}
+
+.addTodo{
+  border: .1rem, solid;
+  padding: 1rem;
+  width: 400px;
+}
